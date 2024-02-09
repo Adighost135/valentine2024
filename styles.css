@@ -1,0 +1,118 @@
+@font-face {
+    font-family: thing;
+    src: url("fonts/WorkSans-Italic-VariableFont_wght.ttf");
+}
+
+:root {
+    font-family: thing;
+    background: linear-gradient(to top, #FFFFE5, #FFBFD9);
+}
+
+body {
+    /* background-color: #FF90BC; */
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    font-family: arial;
+    font-weight: bold;
+    color: #000000 !important;
+    font-size: 17px;
+    text-shadow: 0px 0px 0px #8DC4FC;
+    box-shadow: 3px 3px 4px #798F9E;
+    padding: 18px 27px;
+    border-radius: 10px;
+    border: 2px solid #3866A3;
+    background: #FFFFE5;
+    background: linear-gradient(to top, #FFFFE5, #FFBFD9);
+}
+
+button:hover {
+    color: #14396A !important;
+    background: #468CCF;
+    background: linear-gradient(to top, #468CCF, #63B8EE);
+}
+.bald{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.bigmsg{
+    font-size: 4rem;
+    margin-bottom: 50px;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    background-color: #F9F9E0;
+    font-weight: light;
+    /* font-weight: lighter; */
+}
+
+.collection{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 55px;
+    border-bottom: 2px dotted black;
+}
+.mainmsg{
+    border-radius: 10px;
+    background-color: #FFC0D9;
+    height: 380px;
+    width: 850px;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5),
+    -2px -2px 5px 0px rgba(0, 0, 0, 0.5);;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.catrosediv {
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5),
+    -2px -2px 5px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.catrose{
+    overflow:hidden;
+    border-radius: 10px;
+    margin-bottom: -3.6px;
+}
+
+.invitation{
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.buttons{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.collection2 {
+    /* background-color: #F9F9E0; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#pfp {
+    width: 300px;
+    height:300px;
+    border-radius: 100%;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5),
+    -2px -2px 5px 0px rgba(0, 0, 0, 0.5);
+}
